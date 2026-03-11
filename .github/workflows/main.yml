@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v4
       - run: docker build -t x1 .
       - run: docker run -d --name x1 x1
-      - run: sleep 21000
+      - run: sleep 14400
       - run: docker stop x1
